@@ -1,0 +1,8 @@
+.idea
+__pycache__
+game-dir/assets
+game-dir/libraries
+game-dir/logs
+game-dir/resourcepacks
+game-dir/saves
+game-dir/versions/1.8.9/1.8.9-natives
