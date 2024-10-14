@@ -1,8 +1,11 @@
 import api
+import os
 
 
 def main() -> None:
-    api.start_game("C:/Users/vlad/Documents/programming/python/launcher-recode/game-dir", "1.8.9")
+    script_path = os.path.abspath(__file__)
+    root = os.path.dirname(os.path.dirname(script_path))
+    api.start_game(f"{root}/game-dir", "1.8.9")
 
 
 if __name__ == '__main__':
